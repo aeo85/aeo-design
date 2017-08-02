@@ -1,0 +1,14 @@
+.About {
+  text-align: center;
+  background-color: #eceae7;
+  height: 350px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.Work {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.col6 {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.0625em;
+  border: 1px solid;
+  padding: 12px;
+}
+
+.artwork{
+border: 1px solid;
+padding: 50px;
+color: gray;
+}

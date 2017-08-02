@@ -1,0 +1,27 @@
+.Header {
+  text-align: center;
+  height: 85px;
+  margin-top: 20px;
+}
+
+.Header-logo {
+  height: 60px;
+  float: left;
+}
+
+.Header-nav li {
+  list-style: none;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.0625em;
+  font-size: 12px;
+  padding: 10px;
+  height: 60px;
+}
+
+ul:hover {
+  color: #eaaf11;
+}

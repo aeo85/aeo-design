@@ -1,0 +1,52 @@
+.Services {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 10px;
+}
+
+#sub {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #eaaf11;
+  letter-spacing: 0.0625em;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0.0425em;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  padding: 25px;
+  min-height: 100px;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.copy {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.0225em;
+  line-height: 25px;
+}
