@@ -1,8 +1,9 @@
 .Footer {
   text-align: center;
+  margin: 0 auto;
+  height: 65px;
+  padding-top: 10px;
   background-color: #333333;
-  height: 85px;
-  padding: 10px;
 }
 
 .Footer-logo {
@@ -10,19 +11,39 @@
   float: left;
 }
 
+.line {
+  background-color: white;
+  height: 10px;
+  width: 1px;
+}
+
 .Footer-nav li {
+  color: white;
   list-style: none;
   display: inline;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.0625em;
   font-size: 12px;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.0625em;
   padding: 10px;
   height: 60px;
 }
 
-ul:hover {
+.social {
+  color: white;
+  list-style: none;
+  display: inline;
+}
+
+.social:hover {
   color: #eaaf11;
+  text-decoration: none;
+}
+
+
+@media (max-width: 460px) {
+  .Footer {
+    flex-direction: column;
+    height: 130px;
+  }
 }

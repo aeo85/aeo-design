@@ -28,17 +28,25 @@ class App extends Component {
           <Process />
         </section>
 
+          <a name="work"></a>
+
         <section>
           <Work />
         </section>
+
+          <a name="about"></a>
 
         <section>
           <About />
         </section>
 
+          <a name="services"></a>
+
         <section>
           <Services />
         </section>
+
+          <a name="contact"></a>
 
         <section>
           <Contact />

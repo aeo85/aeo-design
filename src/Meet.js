@@ -6,14 +6,15 @@ class Meet extends Component {
     return (
 
       <div className="Meet">
-        <h1>Thanks!</h1>
-        <p>Not into filling out the above? <br /> Simply email me</p>
-        <button type="button" name="button" className="button">email me</button>
+        <header>
+          <h1>Thanks!</h1>
+          <p>Not into filling out the above? <br /> Simply email me</p>
+          <a href="mailto:aeodesigns@gmail.com"><button type="button" name="button" className="secondbutton">email me</button></a>
+        </header>
       </div>
 
     );
   }
 }
-
 
 export default Meet;

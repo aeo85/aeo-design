@@ -20,19 +20,30 @@ p {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  text-transform: uppercase;
   letter-spacing: 0.0625em;
   line-height: 25px;
   margin-top: 10px;
-  text-transform: uppercase;
 }
 
-.button {
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.secondbutton {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #033048;
+  color: #333333;
   background-color: #eaaf11;
   border: 0px;
   padding: 10px 40px 10px 40px;
   margin-top: 10px;
+}
+
+.secondbutton:hover {
+  color: #333333;
+  background-color: #fcc125;
+  text-decoration: none;
 }

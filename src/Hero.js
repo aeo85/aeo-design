@@ -6,9 +6,11 @@ class Hero extends Component {
     return (
 
       <div className="Hero">
-        <h1>Hello & Welcome</h1>
-        <p>to aeo design - a lil&rsquo; design studio <br /> delivering brand strategies<br /> with a simple process & smart approach</p>
-        <button type="button" name="button" className="button">see my work</button>
+        <header>
+          <h1>Hello & Welcome</h1>
+          <p>to aeo design — a lil&rsquo; design studio <br /> delivering brand strategies<br /> with a simple process & smart approach</p>
+          <a href="#work"><button type="button" name="button" className="firstbutton">see my work</button></a>
+        </header>
       </div>
 
     );

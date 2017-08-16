@@ -1,25 +1,42 @@
 .Work {
   text-align: center;
-  min-height: 50vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.row {
+  margin: 20px;
+  padding: 20px;
   margin: 0 auto;
 }
 
 .col6 {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 265px;
+  justify-content: space-around;
+}
+
+.portfolio {
   font-size: 12px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #333333;
   letter-spacing: 0.0625em;
-  border: 1px solid;
-  padding: 12px;
 }
 
-.artwork{
-border: 1px solid;
-padding: 50px;
-color: gray;
+.col6:hover {
+  color: #333333;
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+
+@media (max-width: 460px) {
+  .Work {
+    flex-direction: column;
+  }
 }
